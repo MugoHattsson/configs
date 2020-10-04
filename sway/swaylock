@@ -1,0 +1,14 @@
+screenshots
+effect-blur=10x1
+clock
+timestr=%H:%m
+datestr=%Y-%M-%d
+indicator
+indicator-radius=130
+text-color=bbbbbb
+text-clear-color=bbbbbb
+text-ver-color=bbbbbb
+ring-color=1DB954
+ring-clear-color=FFAB0F
+inside-ver-color=000000bb
+inside-clear-color=000000bb

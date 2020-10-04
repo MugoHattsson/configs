@@ -1,0 +1,85 @@
+icons = "awesome"
+
+[theme] 
+name = "slick"
+[theme.overrides]
+separator = ""
+idle_bg = "#111111aa"
+idle_fg = "#f3f4f5"
+good_bg = "#1DB954"
+info_bg = "#1DB954"
+info_fg = "#000000"
+warning_bg = "#FFAB0F"
+alternating_tint_bg = "#00000000"
+alternating_tint_fg = "#00000000"
+
+
+#---------------------------------------
+
+[[block]]
+block = "music"
+player = "spotify"
+buttons = ["play", "next"]
+marquee = false
+on_collapsed_click = "spotify" 
+
+[[block]]
+block = "sound"
+show_volume_when_muted = false
+driver = "pulseaudio"
+
+[[block]]
+block = "cpu"
+interval = 2
+
+[[block]]
+block = "battery"
+interval = 10
+format = "{percentage}% {time}"
+
+# [[block]]
+# block = "toggle"
+# #text = ""
+# command_on = "libinput --set-prop 12 \"Device Enabled\" 1"
+# command_off = "libinput --set-prop 12 \"Device Enabled\" 0"
+# command_state = ""
+
+[[block]]
+block = "time"
+interval = 60
+format = "%a %d/%m %R"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#--------------------------------
+
+# [[block]]
+# block = "memory"
+# display_type = "memory"
+# format_mem = "{Mup}%"
+# format_swap = "{SUp}%"
+
+# [[block]]
+# block = "disk_space"
+# path = "/"
+# alias = "/"
+# info_type = "available"
+# unit = "GB"
+# interval = 20
+# warning = 20.0
+# alert = 10.0
