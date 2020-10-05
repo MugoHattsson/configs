@@ -1,4 +1,4 @@
-icons = "awesome"
+icons = "awesome5"
 
 [theme] 
 name = "slick"
@@ -37,49 +37,13 @@ block = "battery"
 interval = 10
 format = "{percentage}% {time}"
 
-# [[block]]
-# block = "toggle"
-# #text = ""
-# command_on = "libinput --set-prop 12 \"Device Enabled\" 1"
-# command_off = "libinput --set-prop 12 \"Device Enabled\" 0"
-# command_state = ""
-
 [[block]]
 block = "time"
 interval = 60
 format = "%a %d/%m %R"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#--------------------------------
-
-# [[block]]
-# block = "memory"
-# display_type = "memory"
-# format_mem = "{Mup}%"
-# format_swap = "{SUp}%"
-
-# [[block]]
-# block = "disk_space"
-# path = "/"
-# alias = "/"
-# info_type = "available"
-# unit = "GB"
-# interval = 20
-# warning = 20.0
-# alert = 10.0
+[[block]]
+block = "networkmanager"
+on_click = "alacritty -e nmtui"
+ap_format = "{strength}%"
+device_format = "{icon}{ap}"
