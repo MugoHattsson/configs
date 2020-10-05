@@ -1,8 +1,8 @@
 screenshots
 effect-blur=10x1
 clock
-timestr=%H:%m
-datestr=%Y-%M-%d
+timestr=%H:%M
+datestr=%Y-%m-%d
 indicator
 indicator-radius=130
 text-color=bbbbbb
